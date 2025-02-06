@@ -33,6 +33,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   analytics:
-    database: "{{ target.name | upper }}"
+    database: {{ target.name + '_DB' }}"
     dwh:
       +schema: sf
