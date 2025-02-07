@@ -1,6 +1,6 @@
 {{ config(materialized='table') }}
 
-with source_data as (
+with target_data as (
     select 5 as id
     union all
     select 1 as id
@@ -11,4 +11,4 @@ with source_data as (
 )
 
 select *
-from source_data
+from target_data
