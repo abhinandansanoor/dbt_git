@@ -9,7 +9,7 @@ with target_data as (
     union all
     select 4 as id
     union all
-    select 12 as id
+    select 11 as id
 )
 
 select *
