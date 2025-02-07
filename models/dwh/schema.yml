@@ -19,7 +19,7 @@ models:
             tests:
                 - unique
 
-      - name: third_model
+    - name: third_model
       description: "A starter dbt model"
       columns:
           - name: id
