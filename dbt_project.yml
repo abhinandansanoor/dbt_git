@@ -36,3 +36,5 @@ models:
     database: "{{ target.name }}"
     dwh:
       +schema: sf
+    mart:
+      +schema: sf_mart
