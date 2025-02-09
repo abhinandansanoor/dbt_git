@@ -14,6 +14,9 @@ with source_data as (
     select null as id
     union all
     select 1 as id
+    union all
+    select 4 as id
+    union
 )
 
 select *
