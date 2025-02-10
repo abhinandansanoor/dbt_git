@@ -11,7 +11,7 @@ with target_data as (
     union all
     select 12 as id
     union all
-    select 15 as id
+    select 16 as id
 )
 
 select *
