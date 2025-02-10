@@ -15,9 +15,9 @@ with source_data as (
     union all
     select 1 as id
     union all
-    select 4 as i
+    select 4 as id
 )
 
 select *
 from source_data
-where id is not null  -- Remove records with null `id` values
+---where id is not null  -- Remove records with null `id` values
