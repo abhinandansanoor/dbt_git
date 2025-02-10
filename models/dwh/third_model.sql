@@ -10,7 +10,7 @@ with target_data as (
     select 3 as id
     union all
     select 12 as id
-    union all
+    union
     select 6 as id
 )
 
