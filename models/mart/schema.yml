@@ -9,6 +9,7 @@ models:
             description: "The primary key for this table"
             tests:
                 - unique
+            tags: ["test"]
 
     - name: test2_model
       description: "A starter dbt model"
@@ -17,3 +18,4 @@ models:
             description: "The primary key for this table"
             tests:
                 - unique
+            tags: ["test"]
